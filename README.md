@@ -1,47 +1,23 @@
 <div align="center">
-  <img src="assets/logo.png" width="148" alt="0xMiller Labs mark">
+  <img src="assets/logo.png" width="128" alt="0xMiller mark">
   <h3>Mark Miller</h3>
-  <p>Senior Backend Engineer · AI systems · Web3 infrastructure</p>
+  <p>Backend engineer &amp; AI developer · RAG · local models · distributed systems · Web3</p>
+  <p><strong>Python</strong> · <strong>Go</strong> · <strong>Ollama / vLLM</strong> · <strong>FastAPI</strong> · <strong>Kafka</strong> · <strong>EVM</strong></p>
   <p>
-    <strong>Python</strong> · <strong>Go</strong> · <strong>FastAPI</strong> ·
-    <strong>Ollama / vLLM</strong> · <strong>Kafka</strong> · <strong>Kubernetes</strong> ·
-    <strong>EVM</strong>
-  </p>
-  <p>
-    <a href="https://0xmmiller.github.io">site</a> ·
+    <a href="https://0xmmiller.github.io">portfolio</a> ·
     <a href="https://github.com/0xmmiller/architecture">architecture</a> ·
-    <a href="https://github.com/0xmmiller/agentkit">agentkit</a> ·
-    <a href="https://github.com/0xmmiller/architecture/blob/main/adr/008-local-model-runtime.md">ADR-008</a>
+    <a href="https://github.com/0xmmiller/ragkit">ragkit</a> ·
+    <a href="https://github.com/0xmmiller/agentkit">agentkit</a>
   </p>
 </div>
 
----
-
-**Currently building**
+**Available for contract.** Backend, RAG/agent runtimes, EVM off-chain. Open an issue on [architecture](https://github.com/0xmmiller/architecture/issues) with label `contract`.
 
 | | | |
 | --- | --- | --- |
-| **Atlas** | Digital asset operations. Python domain, Go notify, operator UI, **agent tools on local models** | [arch](https://github.com/0xmmiller/architecture) · [web](https://github.com/0xmmiller/atlas-web) · [notify](https://github.com/0xmmiller/notification-service) |
-| **AgentKit** | Durable agent backend. Ollama/vLLM first, MCP-shaped tools, Atlas `get_portfolio` / `create_intent` | [repo](https://github.com/0xmmiller/agentkit) |
-| **PyScale** | Backend performance lab — p50/p95/p99 | [repo](https://github.com/0xmmiller/pyscale) |
+| **Atlas** | Asset operations platform (Python + Go notify + UI + agents) | [arch](https://github.com/0xmmiller/architecture) · [web](https://github.com/0xmmiller/atlas-web) |
+| **AgentKit + RagKit** | Local models, MCP tools, retrieval with citations | [agentkit](https://github.com/0xmmiller/agentkit) · [ragkit](https://github.com/0xmmiller/ragkit) |
 | **ChainKit** | Reorgs, RPC failover, log splitters | [repo](https://github.com/0xmmiller/chainkit) |
+| **PyScale** | p50/p95/p99, not folklore | [repo](https://github.com/0xmmiller/pyscale) |
 
-```mermaid
-flowchart TB
-  MM[Mark Miller]
-  LAB[0xMiller Labs]
-  MM --> LAB
-  LAB --> A[Atlas]
-  LAB --> P[PyScale]
-  LAB --> C[ChainKit]
-  LAB --> K[AgentKit]
-  A --> PY[Python domain]
-  A --> GO[Go notify]
-  A --> WEB[atlas-web]
-  K --> LOCAL[Ollama / vLLM]
-  K --> TOOLS[Atlas tools]
-```
-
-Agents are a **runtime behind Atlas**, not a chatbot page. Local models are the default; a vendor URL is an env var ([ADR-008](https://github.com/0xmmiller/architecture/blob/main/adr/008-local-model-runtime.md)).
-
-**0xMiller Labs is a personal engineering lab, not an employer.**
+Personal engineering lab — not an employer, not a studio brand.
