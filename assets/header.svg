@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Mark Miller">
+  <rect width="1200" height="220" fill="#0b0d10"/>
+  <rect x="0" y="0" width="8" height="220" fill="#c8f542"/>
+  <text x="48" y="88" fill="#8b9180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" letter-spacing="4">SENIOR BACKEND ENGINEER</text>
+  <text x="48" y="148" fill="#e8eadf" font-family="ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="600">Mark Miller</text>
+  <text x="48" y="188" fill="#8b9180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16">distributed systems · web3 infrastructure · developer tools</text>
+</svg>
